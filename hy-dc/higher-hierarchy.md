@@ -30,6 +30,6 @@ The namespace prefixes used as described in [README.md](http://inspire.ec.europa
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
 UpperLevelUnit <a name="UpperLevelUnit"></a>   | //schema-element(au:AdministrativeUnit)/au:upperLevelUnit
-Country level <a name="CountryLevel"></a>   | //schema-element(au:AdministrativeUnit)/au:nationalLevel
-coAdminister <a name="coAdminister"></a>   | //schema-element(au:AdministrativeUnit)/au:coAdminister
+Country level unit <a name="CountryLevel"></a>   | //schema-element(au:AdministrativeUnit)/au:nationalLevel
+coAdministered unit <a name="coAdminister"></a>   | //schema-element(au:AdministrativeUnit)/au:coAdminister
 
