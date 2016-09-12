@@ -7,6 +7,7 @@
 **Prerequisites**
 
 **Test method**
+
 For each administrative unit not corresponding to the lowest [level of the administrative hierarchy](#nationalLevel), verify that:
 * it refers to all its respective lower level administrative units in the administrative hierarchy.
 * this reference is expressed using the [lowerLevelUnit](#lowerLevelUnit) association role of the administrative unit spatial object type.
