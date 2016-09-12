@@ -8,7 +8,7 @@
 
 **Test method**
 
-* Verify that the [geometry of each administrative unit] ](#geometry) does not overlap with the geometries of other administrative units having the same [level of administrative hierarchy](#nationalLevel) as the examined one.
+* Verify that the [geometry of each administrative unit](#geometry) does not overlap with the geometries of other administrative units having the same [level of administrative hierarchy](#nationalLevel) as the examined one.
 
 **Reference(s)**: 
 
