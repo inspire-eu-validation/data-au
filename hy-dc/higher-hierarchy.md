@@ -7,8 +7,9 @@
 **Prerequisites**
 
 **Test method**
-
-* Verify that there is only one administrative unit spatial object at the [UpperLevelUnit](#UpperLevelUnit) association role of the Administrative Unit, except for administrative units corresponding to the [Country Level](#CountryLevel) unit representing a Member State or being a [co-administered unit](#coAdminister).
+For each administrative unit, except those corresponding to the [Country Level](#CountryLevel) unit representing a Member State or being a [co-administered unit](#coAdminister), verify that:
+* it refers to exactly one administrative unit at a higher level of administrative hierarchy.
+* Verify that there is only one administrative unit spatial object at the [UpperLevelUnit](#UpperLevelUnit) association role of the administrative Unit.
 
 **Reference(s)**: 
 
@@ -30,3 +31,4 @@ Abbreviation                                               |  XPath expression
 UpperLevelUnit <a name="UpperLevelUnit"></a>   | //schema-element(au:AdministrativeUnit)/au:upperLevelUnit
 Country level <a name="CountryLevel"></a>   | //schema-element(au:AdministrativeUnit)/au:nationalLevel
 coAdminister <a name="coAdminister"></a>   | //schema-element(au:AdministrativeUnit)/au:coAdminister
+
