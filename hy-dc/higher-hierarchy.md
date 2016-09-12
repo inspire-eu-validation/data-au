@@ -8,7 +8,7 @@
 
 **Test method**
 
-* Verify that there is only one administrative unit spatial object at the [UpperLevelUnit](#UpperLevelUnit) association role of the Administrative Unit, except for except administrative units corresponding to the [Country Level](#CountryLevel) unit representing a Member State or being a [co-administered unit](#coAdminister).
+* Verify that there is only one administrative unit spatial object at the [UpperLevelUnit](#UpperLevelUnit) association role of the Administrative Unit, except for administrative units corresponding to the [Country Level](#CountryLevel) unit representing a Member State or being a [co-administered unit](#coAdminister).
 
 **Reference(s)**: 
 
