@@ -9,8 +9,7 @@
 **Test method**
 
 For each administrative unit, except those corresponding to the [Country Level unit](#CountryLevel) representing a Member State or being a [co-administered unit](#coAdminister), verify that:
-* it refers to exactly one administrative unit at a higher level of administrative hierarchy.
-* there is only one administrative unit spatial object at the [UpperLevelUnit](#UpperLevelUnit) association role of the administrative Unit.
+* it refers to exactly one administrative unit at a higher level of administrative hierarchy, i.e. there is only one administrative unit spatial object at the [UpperLevelUnit](#UpperLevelUnit) association role of the administrative Unit.
 
 **Reference(s)**: 
 
