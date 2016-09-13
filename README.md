@@ -1,19 +1,12 @@
-# Abstract Test Suite: Data Specification on Hydrography (DRAFT)
+# Abstract Test Suite: Data Specification on Administrative Units (DRAFT)
                        
-The Data Specification on Hydrography – Technical Guidelines (version 3.1) and the associated GML application schemas (versions 3.0 and 4.0) specifying requirements for the interoperability of spatial data sets of the data theme hydrography.
+The Data Specification on Administrative Units – Technical Guidelines (version 3.1) and the associated GML application schemas (versions 3.0 and 4.0) specifying requirements for the interoperability of spatial data sets of the data theme Administrative Units.
 
 The specification specifies the following conformance classes:
 
 | Conformance class | Standardization target |
 | ----------------- | ---------------------- |
-| [GML application schemas, Hydrography](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/hy-gml) | INSPIRE spatial data set encoded in GML, Hydrography features |
-| [Application schema, Hydrography - Network](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/hy-n-as) | INSPIRE spatial data set |
-| [Application schema, Hydrography - Physical Waters](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/hy-p-as) | INSPIRE spatial data set |
-| [Reference Systems, Hydrography](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/hy-rs) | INSPIRE spatial data set |
-| [Data Consistency, Hydrography](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/hy-dc) | INSPIRE spatial data set |
-| [Information Accessibility, Hydrography](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/hy-ia) | INSPIRE spatial data set |
-| [Portrayal, Hydrography](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/hy-portrayal) | INSPIRE view service |
-| [Metadata for interoperability, Hydrography](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/hy-metadata) | ISO 19115/19119 metadata record |
+| [Data Consistency, Administrative Units](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-dc) | INSPIRE spatial data set |
 
 ## Approach
 
@@ -27,7 +20,7 @@ We have used the following approach to represent the Abstract Test Suite based o
 
 4. As a result, there is no need for an encoding-related, data delivery IR conformance class. Instead, the details how to test the conformance for any additional encoding rule would need to be added to the relevant tests and a new conformance class for the validation against the schemas would be added.
 
-5. The IR conformance classes for application schemas without non-abstract feature types, e.g. "Hydrography - Core", are not needed as no feature instance can be of a type from that application schema.
+5. The IR conformance classes for application schemas without non-abstract feature types, e.g. "Administrative Units - Core", are not needed as no feature instance can be of a type from that application schema.
 
 6. All generic tests related to the GML encoding rule are moved to a new INSPIRE GML conformance class (that should become part of D2.7 in a future revision) and which all other TG conformance classes would normatively reference / depend on.
 
