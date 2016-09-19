@@ -12,7 +12,7 @@ Inspect each [condominium](#condominium)  and verify that its [geometry](#geomet
 
 **Reference(s)**: 
 
-* [TG DS-AU](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-dc/README#ref_TG_DS_AU) IR requirement Section 4.4 (4)
+* [TG DS-AU](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-dc/README#ref_TG_DS_AU) IR requirement Section 4.4 (6)
 
 **Test type**: Automatic
 
