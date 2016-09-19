@@ -26,5 +26,5 @@ The namespace prefixes used as described in [README.md](http://inspire.ec.europa
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-AdministrativeBoundary <a name="AdministrativeBoundary"></a>   | //schema-element(au:AdministrativeBoundary
+AdministrativeBoundary <a name="AdministrativeBoundary"></a>   | //schema-element(au:AdministrativeBoundary)
 geometry <a name="geometry"></a>  | $AdministrativeBoundary/*:geometry
