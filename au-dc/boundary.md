@@ -7,6 +7,7 @@
 **Prerequisites**
 
 **Test method**
+
 Inspect that the [geometry](#geometry) of each instance [administrative boundary](#AdministrativeBoundary) correspond to an edge in the topological structure formed by the complete boundary graph, including the boundaries of all levels.
 
 **Reference(s)**: 
