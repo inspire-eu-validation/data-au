@@ -7,11 +7,6 @@
 **Prerequisites**
 
 **Test method**
-
-For each administrative unit not corresponding to the lowest [level of the administrative hierarchy](#nationalLevel), verify that:
-* it refers to all its respective lower level administrative units in the administrative hierarchy.
-* this reference is expressed using the [lowerLevelUnit](#lowerLevelUnit) association role of the administrative unit spatial object type.
-
 Inspect that the [geometry](#geometry) of each instance [administrative boundary](#AdministrativeBoundary) correspond to an edge in the topological structure formed by the complete boundary graph, including the boundaries of all levels.
 
 **Reference(s)**: 
