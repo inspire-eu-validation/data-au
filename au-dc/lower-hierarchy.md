@@ -29,6 +29,6 @@ The namespace prefixes used as described in [README.md](http://inspire.ec.europa
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-UpperLevelUnit <a name="UpperLevelUnit"></a>   | //schema-element(au:AdministrativeUnit)/au:upperLevelUnit
+lowerLevelUnit <a name="lowerLevelUnit"></a>   | //schema-element(au:AdministrativeUnit)/au:lowerLevelUnit
 level of the administrative hierarchy  <a name="nationalLevel"></a>   | //schema-element(au:AdministrativeUnit)/au:nationalLevel
 
