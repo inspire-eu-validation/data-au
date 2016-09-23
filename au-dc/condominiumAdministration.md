@@ -26,7 +26,7 @@ The namespace prefixes used as described in [README.md](http://inspire.ec.europa
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-condominium<a name="condominium"></a>   | //schema-element(au:condominium)
+condominium<a name="condominium"></a>   | //schema-element(au:Condominium)
 Administrative Unit <a name="AdministrativeUnit"></a>   | //schema-element(au:AdministrativeUnit)
 country level <a name="countryLevel"></a>   | //schema-element(au:AdministrativeUnit)/au:upperLevelUnit
-admUnit association role <a name="admUnit"></a>   | //schema-element(au:condominium)/au:admUnit
+admUnit association role <a name="admUnit"></a>   | //schema-element(au:Condominium)/au:admUnit
