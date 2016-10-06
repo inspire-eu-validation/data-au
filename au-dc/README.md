@@ -22,7 +22,7 @@ A direct dependency is another conformance class whose requirements must be met 
 
 ### Indirect dependencies
 
-An indirect dependency is another conformance class whose requirements must be met by a related resource.
+none
 
  
 ## Feature types <a name="feature-types"></a>
