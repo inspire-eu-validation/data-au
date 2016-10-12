@@ -1,4 +1,4 @@
-# Conformance class: Portrayal, Hydrography (DRAFT)
+# Conformance class: Portrayal, Administrative Units (DRAFT)
 
 This conformance class is part of the [Abstract Test Suite for the INSPIRE Data Specification on Administrative Units](http://inspire.ec.europa.eu/id/ats/data-au/3.1).
 
