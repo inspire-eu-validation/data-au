@@ -1,10 +1,10 @@
-# Conformance class: Information accessibility, Hydrography (DRAFT)
+# Conformance class: Information accessibility, Administrative Units (DRAFT)
 
 Conformance class for the requirements related to the accessibility of referenced information, for example, information stored in registries (code lists, coordinate reference systems).
 
-To be able to test this conformance class, the encoding of the data set must be known, i.e. this is a parameterized conformance class. The XPath expressions used in this test suite assume that the GML encoding is used. If used with the GML encoding this conformance class has an indirect dependency to the conformance class "GML application schemas, Hydrography".
+To be able to test this conformance class, the encoding of the data set must be known, i.e. this is a parameterized conformance class. The XPath expressions used in this test suite assume that the GML encoding is used. If used with the GML encoding this conformance class has an indirect dependency to the conformance class "GML application schemas, Administrative Units".
 
-This conformance class is part of the [Abstract Test Suite for the INSPIRE Data Specification on Hydrography](http://inspire.ec.europa.eu/id/ats/data-hy/3.1).
+This conformance class is part of the [Abstract Test Suite for the INSPIRE Data Specification on Administrative Units](http://inspire.ec.europa.eu/id/ats/data-au/3.1).
 
 ## Standardization target type
 
@@ -18,7 +18,7 @@ A direct dependency is another conformance class whose requirements must be met 
 
 | Specification | Conformance class | Parameters | 
 | ------------- | ----------------- | ---------- |
-| [TG DS Template](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/hy-ia/README#ref_TG_DS_tmpl) | [Information accessibility](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/information-accessibility) | n/a |
+| [TG DS Template](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-ia/README#ref_TG_DS_tmpl) | [Information accessibility](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/information-accessibility) | n/a |
 
 ### Indirect dependencies
 
@@ -26,40 +26,23 @@ An indirect dependency is another conformance class whose requirements must be m
 
 | Specification | Conformance class | Related resource | Parameters |
 | ------------- | ----------------- | ---------------- | ---------- |
-| [TG DS-HY](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/hy-ia/README#ref_TG_DS_HY) | [GML application schemas, Hydrography](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/hy-gml) | INSPIRE spatial data set encoded in GML, Hydrography features | n/a |
+| [TG DS-AU](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-ia/README#ref_TG_DS_HY) | [GML application schemas, Administrative Units](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-gml) | INSPIRE spatial data set encoded in GML, Administrative Units features | n/a |
  
 ## Feature types <a name="feature-types"></a>
 
 The instantiable feature types are:
 
-Network:
+AdministrativeUnits:
 
-* HydroNode
-* WatercourseLink
-* WatercourseLinkSequence
-* WatercourseSeparatedCrossing
+* AdministrativeBoundary
+* AdministrativeUnit
+* Condominium
 
-Physical Waters:
+MaritimeUnits:
 
-* Watercourse
-* StandingWater
-* Wetland
-* GlacierSnowfield
-* Shore
-* DrainageBasin
-* RiverBasin
-* LandWaterBoundary
-* Embankment
-* Ford
-* Lock
-* Sluice
-* DamOrWeir
-* ShorelineConstruction
-* Crossing
-* SpringOrSeep
-* VanishingPoint
-* Rapids
-* Falls
+* Baseline
+* MaritimeBoundary
+* MaritimeZone
 
 *Note*: When "features" or "spatial objects" are mentioned in the test cases, this refers only to instances of feature types of this application schema, not to any types specified in any other application schema.
 
@@ -69,15 +52,15 @@ The following abbreviations are used in the test text for referring to external 
 
 Abbreviation                     | Document name
 -------------------------------- | --------------------------------------------------
-TG DS-HY <a name="ref_TG_DS_HY"></a>   | [INSPIRE Data Specification on Hydrography – Technical Guidelines version 3.1](http://inspire.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_HY_v3.1.pdf)
+TG DS-AU <a name="ref_TG_DS_AU"></a>   | [INSPIRE Data Specification on Administrative Units – Technical Guidelines version 3.1](http://inspire.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_AU_v3.1.pdf)
 TG DS Template <a name="ref_TG_DS_tmpl"></a>   | [INSPIRE Data Specification Template version 3.0rc3](http://inspire.jrc.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_Template_v3.0rc3.pdf)
 
 ## Test Cases
 
-| Identifier                                                        | Status   | Test case in [TG DS-HY](#ref_TG_DS_HY)  |
+| Identifier                                                        | Status   | Test case in [TG DS-AU](#ref_TG_DS_AU)  |
 | ----------------------------------------------------------------- | -------- | ------------ |
-| [Code lists](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/hy-ia/code-list)  | ready for review  | A.6.1 |
-| [Feature references](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/hy-ia/features)  | ready for review  | A.1.4 |
+| [Code lists](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-ia/code-list)  | ready for review  | A.6.1 |
+| [Feature references](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/au-ia/features)  | ready for review  | A.1.4 |
 
 ## XML namespace prefixes <a name="namespaces"></a>
 
@@ -86,11 +69,12 @@ The following prefixes are used to refer to the corresponding XML namespaces in 
 Prefix         | Namespace
 -------------- | -------------------------------------------------
 gml            | http://www.opengis.net/gml/3.2
-hy-n           | urn:x-inspire:specification:gmlas:HydroNetwork:3.0 or http://inspire.ec.europa.eu/schemas/hy-n/4.0
-hy-p           | urn:x-inspire:specification:gmlas:HydroPhysicalWaters:3.0 or http://inspire.ec.europa.eu/schemas/hy-p/4.0
+au          | http://inspire.ec.europa.eu/schemas/au/4.0 or urn:x-inspire:specification:gmlas:AdministrativeUnits:3.0
+au3          | urn:x-inspire:specification:gmlas:AdministrativeUnits:3.0
+mu 			| urn:x-inspire:specification:gmlas:MaritimeUnits:3.0
 
 The following variables are used to refer to the corresponding Xpath expressions in all test descriptions:
 
 Variable       | Value
 -------------- | -------------------------------------------------
-$features      |  //schema-element(hy-n:HydroNode) \| //schema-element(hy-n:WatercourseLink) \| //schema-element(hy-n:WatercourseLinkSequence) \| //schema-element(hy-n:WatercourseSeparatedCrossing) \| //schema-element(hy-p:Watercourse) \| //schema-element(hy-p:StandingWater) \| //schema-element(hy-p:Wetland) \| //schema-element(hy-p:GlacierSnowfield) \| //schema-element(hy-p:Shore) \| //schema-element(hy-p:DrainageBasin) \| //schema-element(hy-p:RiverBasin) \| //schema-element(hy-p:LandWaterBoundary) \| //schema-element(hy-p:Embankment) \| //schema-element(hy-p:Ford) \| //schema-element(hy-p:Lock) \| //schema-element(hy-p:Sluice) \| //schema-element(hy-p:DamOrWeir) \| //schema-element(hy-p:ShorelineConstruction) \| //schema-element(hy-p:Crossing) \| //schema-element(hy-p:SpringOrSeep) \| //schema-element(hy-p:VanishingPoint) \| //schema-element(hy-p:Rapids) \| //schema-element(hy-p:Falls)
+$features      |  //schema-element(au:AdministrativeBoundary) \| //schema-element(au:AdministrativeUnit) \| //schema-element(au:Condominium) \| //schema-element(mu:Baseline) \| //schema-element(mu:MaritimeBoundary) \| //schema-element(mu:MaritimeZone)
