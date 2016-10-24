@@ -32,4 +32,4 @@ The namespace prefixes used as described in [README.md](http://inspire.ec.europa
 
 Abbreviation                                          |  XPath expression
 ----------------------------------------------------- | ------------------------------------------------------------------
-features <a name="features"></a>   |  //schema-element(au:AdministrativeBoundary) \| //schema-element(au:AdministrativeUnit) \| //schema-element(au:condominium) \| //schema-element(mu:Baseline) \| //schema-element(mu:MaritimeBoundary) \| //schema-element(mu:MaritimeZone)
+features <a name="features"></a>   |  //schema-element(au:AdministrativeBoundary) \| //schema-element(au:AdministrativeUnit) \| //schema-element(au:Condominium) \| //schema-element(mu:Baseline) \| //schema-element(mu:MaritimeBoundary) \| //schema-element(mu:MaritimeZone)
