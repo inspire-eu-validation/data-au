@@ -18,7 +18,7 @@
 
 **Notes**
 
-There is no requirement that we could reference in the Technical Guidelines, but such a requirement is clearly missing for any data set with hydrographic features. Maybe such a requirement should be added in the future revision?
+There is no requirement that we could reference in the Technical Guidelines. Maybe such a requirement should be added in the future revision?
 
 ## Messages
 
