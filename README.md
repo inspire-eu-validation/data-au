@@ -6,6 +6,7 @@ The specification specifies the following conformance classes:
 
 | Conformance class | Standardization target |
 | ----------------- | ---------------------- |
+| [GML application schemas, Administrative Units](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-gml) | INSPIRE spatial data set encoded in GML, Administrative Units features |
 | [Data Consistency, Administrative Units](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-dc) | INSPIRE spatial data set |
 | [Application Schema, Administrative Units](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-as) | INSPIRE spatial data set |
 | [Portrayal, Administrative Units](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-portrayal) | INSPIRE view service |
