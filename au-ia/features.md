@@ -12,14 +12,19 @@
 
 This data theme currently has the following association roles:
 
-* AdministrativeUnit.[NUTS](#NUTS) : NUTSRegion
+* AdministrativeUnit.[NUTS](#NUTS) : stat:NUTSRegion
 * AdministrativeUnit.[condominium](#condominium) : Condominium
 * AdministrativeUnit.[upperLevelUnit](#upperLevelUnit) : AdministrativeUnit
+* AdministrativeUnit.[lowerLevelUnit](#lowerLevelUnit) : AdministrativeUnit
 * AdministrativeUnit.[administeredBy](#administeredBy) : AdministrativeUnit
 * AdministrativeUnit.[coAdminister](#coAdminister) : AdministrativeUnit
 * AdministrativeUnit.[boundary](#boundary) : AdministrativeBoundary
 * AdministrativeBoundary.[admUnit](#admUnit) : AdministrativeUnit
 * Condominium.[admUnit](#admUnit) : AdministrativeUnit
+* MaritimeZone.[boundary](#MaritimeBoundary) : MaritimeBoundary
+* MaritimeZone.[seaArea](#seaArea) : sr:SeaArea
+* MaritimeZone.[baseline](#baseline) : sr:Shoreline or Baseline
+
 
 
 **Reference(s)**: 
@@ -45,7 +50,11 @@ Abbreviation                                               |  XPath expression
 NUTS <a name ="NUTS"></a>	| //schema-element(au:AdministrativeUnit)/stat:NUTSregion/@xlink:href
 condominium <a name ="condominium"></a>	| //schema-element(au:AdministrativeUnit)/au:Condominium/@xlink:href
 upperLevelUnit <a name ="upperLevelUnit"></a>	| //schema-element(au:AdministrativeUnit)/au:upperLevelUnit/@xlink:href
+upperLevelUnit <a name ="lowerLevelUnit"></a>	| //schema-element(au:AdministrativeUnit)/au:lowerLevelUnit/@xlink:href
 administeredBy <a name ="administeredBy"></a>	| //schema-element(au:AdministrativeUnit)/au:administeredBy/@xlink:href
 coAdminister <a name ="coAdminister"></a>	| //schema-element(au:AdministrativeUnit)/au:coAdminister/@xlink:href
 boundary <a name ="boundary"></a>	| //schema-element(au:AdministrativeBoundary)/au:boundary/@xlink:href
 admUnit <a name ="admUnit"></a>	| //schema-element(au:AdministrativeBoundary)/au:admUnit/@xlink:href and //schema-element(au:Condominium)/au:admUnit/@xlink:href
+boundary <a name ="MaritimeBoundary"></a>	| //schema-element(mu:MaritimeZone)/mu:boundary/@xlink:href
+seaArea <a name ="seaArea"></a>	| //schema-element(mu:MaritimeZone)/mu:seaArea/@xlink:href
+baseline <a name ="baseline"></a>	| //schema-element(mu:MaritimeZone)/mu:baseline/@xlink:href
