@@ -26,7 +26,6 @@ This data theme currently has the following association roles:
 * MaritimeZone.[baseline](#baseline) : sr:Shoreline or Baseline
 
 
-
 **Reference(s)**: 
 
 * [TG DS Template](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-ia/README#ref_TG_DS_tmpl) IR requirement Article 4 (2)
