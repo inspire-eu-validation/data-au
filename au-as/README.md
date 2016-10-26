@@ -51,6 +51,7 @@ TG DS Template <a name="ref_TG_DS_tmpl"></a>   | [INSPIRE Data Specification Tem
 | Identifier                                                        | Status   | Test case in [TG DS-AU](#ref_TG_DS_AU)  |
 | ----------------------------------------------------------------- | -------- | ------------ |
 | [Code list values](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-as/code-list-values)  | Draft  | A.1.3  |
+| [Constraints](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-as/constraints)  | Draft  | A.1.6  |
 
 ## XML namespace prefixes <a name="namespaces"></a>
 
