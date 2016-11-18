@@ -27,10 +27,6 @@ Automated tests:
 
 **Notes** 
 
-* OCL constraint "inv: self.nationalLevel = '1stOrder' implies self.upperLevelUnit->isEmpty() and self.lowerLevelUnit->notEmpty()" implies that a dataset with only units at nationalLevel is not valid.
-* OCL constraint "inv: self.nationalLevel = '6thOrder' implies self.lowerLevelUnit->isEmpty and self.upperLevelUnit->notEmpty" implies that the lowest level in the dataset is always of 6thOrder.
-
-These OCL constraints can not be implemented until this is resolved.
 
 ## Messages
 
