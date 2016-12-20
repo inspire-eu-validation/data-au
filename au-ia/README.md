@@ -1,8 +1,8 @@
-# Conformance class: Application schema, Administrative Units - Administrative Units (DRAFT)
+# Conformance class: Information accessibility, Administrative Units (DRAFT)
 
-Conformance class for the requirements associated with the application schema. 
+Conformance class for the requirements related to the accessibility of referenced information, for example, information stored in registries (code lists, coordinate reference systems).
 
-To be able to test this conformance class, the encoding of the data set must be known, i.e. this is a parameterized conformance class. The XPath expressions used in this test suite assume that the GML encoding is used. If used with the GML encoding this conformance class has an indirect dependency to the conformance class "GML application schemas, Administrative Units - Administrative Units".
+To be able to test this conformance class, the encoding of the data set must be known, i.e. this is a parameterized conformance class. The XPath expressions used in this test suite assume that the GML encoding is used. If used with the GML encoding this conformance class has an indirect dependency to the conformance class "GML application schemas, Administrative Units".
 
 This conformance class is part of the [Abstract Test Suite for the INSPIRE Data Specification on Administrative Units](http://inspire.ec.europa.eu/id/ats/data-au/3.1).
 
@@ -14,7 +14,11 @@ INSPIRE spatial data set
 
 ### Direct dependencies
 
-none
+A direct dependency is another conformance class whose requirements must be met by the data set, too.
+
+| Specification | Conformance class | Parameters | 
+| ------------- | ----------------- | ---------- |
+| [TG DS Template](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-ia/README#ref_TG_DS_tmpl) | [Information accessibility](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/information-accessibility) | n/a |
 
 ### Indirect dependencies
 
@@ -22,15 +26,20 @@ An indirect dependency is another conformance class whose requirements must be m
 
 | Specification | Conformance class | Related resource | Parameters |
 | ------------- | ----------------- | ---------------- | ---------- |
-| [TG DS-AU](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-as/README#ref_TG_DS_HY) | [GML application schemas, Administrative Units](http://inspire.ec.europa.eu/id/ats/data-au/3.1/hy-gml) | INSPIRE spatial data set encoded in GML, Administrative Units features | n/a |
+| [TG DS-AU](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-ia/README#ref_TG_DS_HY) | [GML application schemas, Administrative Units](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-gml) | INSPIRE spatial data set encoded in GML, Administrative Units features | n/a |
  
 ## Feature types <a name="feature-types"></a>
 
-The instantiable feature types in the application schema are:
+The instantiable feature types are:
+
+AdministrativeUnits:
 
 * AdministrativeBoundary
 * AdministrativeUnit
 * Condominium
+
+MaritimeUnits:
+
 * Baseline
 * MaritimeBoundary
 * MaritimeZone
@@ -50,8 +59,8 @@ TG DS Template <a name="ref_TG_DS_tmpl"></a>   | [INSPIRE Data Specification Tem
 
 | Identifier                                                        | Status   | Test case in [TG DS-AU](#ref_TG_DS_AU)  |
 | ----------------------------------------------------------------- | -------- | ------------ |
-| [Code list values](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-as/code-list-values)  | Draft  | A.1.3  |
-| [Constraints](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-as/constraints)  | Draft  | A.1.6  |
+| [Code lists](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-ia/code-list)  | ready for review  | A.6.1 |
+| [Feature references](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/au-ia/features)  | ready for review  | A.1.4 |
 
 ## XML namespace prefixes <a name="namespaces"></a>
 
@@ -59,15 +68,13 @@ The following prefixes are used to refer to the corresponding XML namespaces in 
 
 Prefix         | Namespace
 -------------- | -------------------------------------------------
-net3           | urn:x-inspire:specification:gmlas:Network:3.2
-net4           | http://inspire.ec.europa.eu/schemas/net/4.0
+gml            | http://www.opengis.net/gml/3.2
 au          | http://inspire.ec.europa.eu/schemas/au/4.0 or urn:x-inspire:specification:gmlas:AdministrativeUnits:3.0
 au3          | urn:x-inspire:specification:gmlas:AdministrativeUnits:3.0
-net            | urn:x-inspire:specification:gmlas:Network:3.2 or http://inspire.ec.europa.eu/schemas/net/4.0
-base           | http://inspire.ec.europa.eu/schemas/base/3.3
-gml            | http://www.opengis.net/gml/3.2
-wfs            | http://www.opengis.net/wfs/2.0
-xsi            | http://www.w3.org/2001/XMLSchema-instance
-xlink          | http://www.w3.org/1999/xlink
-xml            | http://www.w3.org/XML/1998/namespace
+mu 			| urn:x-inspire:specification:gmlas:MaritimeUnits:3.0
 
+The following variables are used to refer to the corresponding Xpath expressions in all test descriptions:
+
+Variable       | Value
+-------------- | -------------------------------------------------
+$features      |  //schema-element(au:AdministrativeBoundary) \| //schema-element(au:AdministrativeUnit) \| //schema-element(au:Condominium) \| //schema-element(mu:Baseline) \| //schema-element(mu:MaritimeBoundary) \| //schema-element(mu:MaritimeZone)
