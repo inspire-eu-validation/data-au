@@ -20,8 +20,8 @@ Automated tests:
 
 **Reference(s)**: 
 
-* [TG DS Template](http://inspire.ec.europa.eu/id/ats/data-cp/3.2/cp-as/README#ref_TG_DS_tmpl) IR requirement Article 4 (2)
-* [TG DS-PS](http://inspire.ec.europa.eu/id/ats/data-cp/3.2/cp-as/README#ref_TG_DS_PS)) 5.4
+* [TG DS Template](http://inspire.ec.europa.eu/id/ats/data-au/3.2/au-as/README#ref_TG_DS_tmpl) IR requirement Article 4 (2)
+* [TG DS-AU](http://inspire.ec.europa.eu/id/ats/data-au/3.2/au-as/README#ref_TG_DS_AU)) 5.4
 
 **Test type**: Automated
 
