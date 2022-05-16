@@ -56,13 +56,13 @@ TG DS Template <a name="ref_TG_DS_tmpl"></a>   | [INSPIRE Data Specification Tem
 
 | Identifier                                                        | Status   | Test case in [TG DS-AU](#ref_TG_DS_AU)  |
 | ----------------------------------------------------------------- | -------- | ------------ |
-| [Area consistency](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/hy-dc/area)  | ready for review  | A.3.8  |
-| [Boundary consistency](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/hy-dc/boundary)  | ready for review  | A.3.9  |
-| [Co-administered consistency](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/hy-dc/co-administered)  | ready for review  | A.3.7  |
-| [Condominium administration](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/hy-dc/condominiumAdministration)  | ready for review  | A.3.11  |
-| [Condominium spatial extent](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/hy-dc/condominiumSpatialExtent)  | ready for review  | A.3.10  |
-| [Higher hierarchy consistency](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/hy-dc/higher-hierarchy)  | ready for review  | A.3.5  |
-| [Lower hierarchy consistency](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/hy-dc/lower-hierarchy)  | ready for review  | A.3.6  |
+| [Area consistency](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-dc/area)  | ready for review  | A.3.8  |
+| [Boundary consistency](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-dc/boundary)  | ready for review  | A.3.9  |
+| [Co-administered consistency](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-dc/co-administered)  | ready for review  | A.3.7  |
+| [Condominium administration](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-dc/condominiumAdministration)  | ready for review  | A.3.11  |
+| [Condominium spatial extent](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-dc/condominiumSpatialExtent)  | ready for review  | A.3.10  |
+| [Higher hierarchy consistency](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-dc/higher-hierarchy)  | ready for review  | A.3.5  |
+| [Lower hierarchy consistency](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-dc/lower-hierarchy)  | ready for review  | A.3.6  |
 
 
 ## XML namespace prefixes <a name="namespaces"></a>
