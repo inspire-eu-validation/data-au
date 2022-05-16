@@ -22,7 +22,7 @@ An indirect dependency is another conformance class whose requirements must be m
 
 | Specification | Conformance class | Related resource | Parameters |
 | ------------- | ----------------- | ---------------- | ---------- |
-| [TG DS-AU](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-as/README#ref_TG_DS_HY) | [GML application schemas, Administrative Units](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-gml) | INSPIRE spatial data set encoded in GML, Administrative Units features | n/a |
+| [TG DS-AU](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-as/README#ref_TG_DS_AU) | [GML application schemas, Administrative Units](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-gml) | INSPIRE spatial data set encoded in GML, Administrative Units features | n/a |
  
 ## Feature types <a name="feature-types"></a>
 
