@@ -28,14 +28,15 @@ The following abbreviations are used in the test text for referring to external 
 
 Abbreviation                     | Document name
 -------------------------------- | --------------------------------------------------
-TG DS-HY <a name="ref_TG_DS_AU"></a>   | [INSPIRE Data Specification on Administrative Units – Technical Guidelines version 3.1](http://inspire.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_AU_v3.1.pdf)
+TG DS-AU <a name="ref_TG_DS_AU"></a>   | [INSPIRE Data Specification on Administrative Units – Technical Guidelines version 3.1](http://inspire.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_AU_v3.1.pdf)
 TG DS Template <a name="ref_TG_DS_tmpl"></a>   | [INSPIRE Data Specification Template version 3.0rc3](http://inspire.jrc.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_Template_v3.0rc3.pdf)
 
 ## Test Cases
 
-| Identifier                                                        | Status   | Test case in [TG DS-HY](#ref_TG_DS_AU)  |
+| Identifier                                                        | Status   | Test case in [TG DS-AU](#ref_TG_DS_AU)  |
 | ----------------------------------------------------------------- | -------- | ------------ |
 | [Basic test](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-gml/basic)  | ready for review  | A.1.1, (A.6.1)  |
+| [Validation against INSPIRE official schema](./official-schema-validation.md)  | ready for review  | A.1.1, (A.6.1)  |
 
 ## XML namespace prefixes <a name="namespaces"></a>
 
