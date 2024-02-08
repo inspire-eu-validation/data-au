@@ -15,8 +15,8 @@ Inspect the view service, either through HTTP requests or using a software tool 
 
 **Reference(s)**:
 
-* [TG DS-AU](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/hy-portrayal/README#ref_TG_DS_AU), IR Requirement, Article 14
-* [TG DS-AU](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/hy-portrayal/README#ref_TG_DS_AU), TG Requirement 7
+* [TG DS-AU](./README.md#ref_TG_DS_AU), IR Requirement, Article 14
+* [TG DS-AU](./README.md#ref_TG_DS_AU), TG Requirement 7
 
 **Test type**: Manual
 
