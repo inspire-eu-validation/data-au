@@ -1,4 +1,4 @@
-# Abstract Test Suite: Data Specification on Administrative Units (DRAFT)
+# Abstract Test Suite: Data Specification on Administrative Units
                        
 The Data Specification on Administrative Units – Technical Guidelines (version 3.2) and the associated GML application schemas (version 5.0) specifying requirements for the interoperability of spatial data sets of the data theme Administrative Units.
 
