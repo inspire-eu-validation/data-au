@@ -10,7 +10,7 @@
 
 **Reference(s)**:
 
-* [TG DS-AU](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-portrayal/README#ref_TG_DS_AU), IR Requirement, Article 14(1)(a)
+* [TG DS-AU](#ref_TG_DS_AU), IR Requirement, Article 14(1)(a)
 
 **Test type**: Automated
 
@@ -18,7 +18,7 @@
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-portrayal/README#namespaces).
+The namespace prefixes are used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                     |  XPath expression												|  Parameter  value
 ------------------------------------------------ | ---------------------------------------------------------------	| ---------------------------------------------------------------

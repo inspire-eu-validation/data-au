@@ -18,7 +18,7 @@ A direct dependency is another conformance class whose requirements must be met 
 
 | Specification | Conformance class | Parameters | 
 | ------------- | ----------------- | ---------- |
-| [TG DS Template](http://inspire.ec.europa.eu/id/ats/data-au/3.2/au-rs/README#ref_TG_DS_tmpl) | [Reference systems](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/reference-systems) | n/a |
+| [TG DS Template](#ref_TG_DS_tmpl) | [Reference systems](https://github.com/inspire-eu-validation/data/tree/master/reference-systems) | n/a |
 
 ### Indirect dependencies
 
@@ -26,7 +26,7 @@ An indirect dependency is another conformance class whose requirements must be m
 
 | Specification | Conformance class | Related resource | Parameters |
 | ------------- | ----------------- | ---------------- | ---------- |
-| [TG DS-AU](http://inspire.ec.europa.eu/id/ats/data-au/3.2/au-rs/README#ref_TG_DS_AU) | [GML application schema, Administrative Units Simple](http://inspire.ec.europa.eu/id/ats/data-au/3.2/au-gml) | INSPIRE spatial data set encoded in GML, Administrative Units features | n/a |
+| [TG DS-AU](#ref_TG_DS_AU) | [GML application schema, Administrative Units Simple](../au-gml) | INSPIRE spatial data set encoded in GML, Administrative Units features | n/a |
  
 ## Feature types <a name="feature-types"></a>
 
@@ -42,12 +42,12 @@ The following abbreviations are used in the test text for referring to external 
 
 Abbreviation                     | Document name
 -------------------------------- | --------------------------------------------------
-TG DS-AU <a name="ref_TG_DS_au"></a>   | [INSPIRE Data Specification on Administrative Units – Technical Guidelines version 3.2](http://inspire.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_AU_v3.2.pdf)
-TG DS Template <a name="ref_TG_DS_tmpl"></a>   | [INSPIRE Data Specification Template version 3.0rc3](http://inspire.jrc.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_Template_v3.0rc3.pdf)
+TG DS-AU <a name="ref_TG_DS_au"></a>   | [INSPIRE Data Specification on Administrative Units – Technical Guidelines version 3.2](https://knowledge-base.inspire.ec.europa.eu/publications/inspire-data-specification-administrative-units-technical-guidelines_en)
+TG DS Template <a name="ref_TG_DS_tmpl"></a>   | [INSPIRE Data Specification Template version 3.0rc3](https://knowledge-base.inspire.ec.europa.eu/publications/data-specifications-template_en)
 
 ## Test Cases
 
-None, all reference system test cases are covered by the generic [Reference systems](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/reference-systems) tests.
+None, all reference system test cases are covered by the generic [Reference systems](https://github.com/inspire-eu-validation/data/tree/master/reference-systems) tests.
 
 ## XML namespace prefixes <a name="namespaces"></a>
 

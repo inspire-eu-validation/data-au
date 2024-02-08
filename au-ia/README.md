@@ -1,4 +1,4 @@
-# Conformance class: Information accessibility, Administrative Units (DRAFT)
+# Conformance class: Information accessibility, Administrative Units
 
 Conformance class for the requirements related to the accessibility of referenced information, for example, information stored in registries (code lists, coordinate reference systems).
 
@@ -18,7 +18,7 @@ A direct dependency is another conformance class whose requirements must be met 
 
 | Specification | Conformance class | Parameters | 
 | ------------- | ----------------- | ---------- |
-| [TG DS Template](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-ia/README#ref_TG_DS_tmpl) | [Information accessibility](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/information-accessibility) | n/a |
+| [TG DS Template](#ref_TG_DS_tmpl) | [Information accessibility](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/information-accessibility) | n/a |
 
 ### Indirect dependencies
 
@@ -26,7 +26,7 @@ An indirect dependency is another conformance class whose requirements must be m
 
 | Specification | Conformance class | Related resource | Parameters |
 | ------------- | ----------------- | ---------------- | ---------- |
-| [TG DS-AU](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-ia/README#ref_TG_DS_HY) | [GML application schemas, Administrative Units](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-gml) | INSPIRE spatial data set encoded in GML, Administrative Units features | n/a |
+| [TG DS-AU](#ref_TG_DS_HY) | [GML application schemas, Administrative Units](../au-gml) | INSPIRE spatial data set encoded in GML, Administrative Units features | n/a |
  
 ## Feature types <a name="feature-types"></a>
 
@@ -52,15 +52,15 @@ The following abbreviations are used in the test text for referring to external 
 
 Abbreviation                     | Document name
 -------------------------------- | --------------------------------------------------
-TG DS-AU <a name="ref_TG_DS_AU"></a>   | [INSPIRE Data Specification on Administrative Units – Technical Guidelines version 3.1](http://inspire.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_AU_v3.1.pdf)
-TG DS Template <a name="ref_TG_DS_tmpl"></a>   | [INSPIRE Data Specification Template version 3.0rc3](http://inspire.jrc.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_Template_v3.0rc3.pdf)
+TG DS-AU <a name="ref_TG_DS_AU"></a>   | [INSPIRE Data Specification on Administrative Units – Technical Guidelines](https://knowledge-base.inspire.ec.europa.eu/publications/inspire-data-specification-administrative-units-technical-guidelines_en)
+TG DS Template <a name="ref_TG_DS_tmpl"></a>   | [INSPIRE Data Specification Template version 3.0rc3](https://knowledge-base.inspire.ec.europa.eu/publications/data-specifications-template_en)
 
 ## Test Cases
 
 | Identifier                                                        | Status   | Test case in [TG DS-AU](#ref_TG_DS_AU)  |
 | ----------------------------------------------------------------- | -------- | ------------ |
-| [Code lists](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-ia/code-list)  | ready for review  | A.6.1 |
-| [Feature references](http://inspire.ec.europa.eu/id/ats/data-hy/3.1/au-ia/features)  | ready for review  | A.1.4 |
+| [Code lists](./code-list.md)  | ready for review  | A.6.1 |
+| [Feature references](./features.md)  | ready for review  | A.1.4 |
 
 ## XML namespace prefixes <a name="namespaces"></a>
 
@@ -69,9 +69,8 @@ The following prefixes are used to refer to the corresponding XML namespaces in 
 Prefix         | Namespace
 -------------- | -------------------------------------------------
 gml            | http://www.opengis.net/gml/3.2
-au          | http://inspire.ec.europa.eu/schemas/au/4.0 or urn:x-inspire:specification:gmlas:AdministrativeUnits:3.0
-au3          | urn:x-inspire:specification:gmlas:AdministrativeUnits:3.0
-mu 			| urn:x-inspire:specification:gmlas:MaritimeUnits:3.0
+au          | http://inspire.ec.europa.eu/schemas/au/5.0
+mu      			| http://inspire.ec.europa.eu/schemas/mu/4.0
 
 The following variables are used to refer to the corresponding Xpath expressions in all test descriptions:
 

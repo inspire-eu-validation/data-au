@@ -16,8 +16,8 @@ The test always passes.
 
 **Reference(s)**: 
 
-* [TG DS Template](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-mu-as/README#ref_TG_DS_tmpl) IR requirement Article 4 (2)
-* [TG DS-AU](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-mu-as/README#ref_TG_DS_AU)) 5.4
+* [TG DS Template](./README.md#ref_TG_DS_tmpl) IR requirement Article 4 (2)
+* [TG DS-AU](./README.md#ref_TG_DS_AU) 5.4
 
 **Test type**: Automated
 

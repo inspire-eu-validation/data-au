@@ -1,18 +1,18 @@
-# Abstract Test Suite: Data Specification on Administrative Units (DRAFT)
+# Abstract Test Suite: Data Specification on Administrative Units
                        
-The Data Specification on Administrative Units – Technical Guidelines (version 3.1) and the associated GML application schemas (versions 3.0 and 4.0) specifying requirements for the interoperability of spatial data sets of the data theme Administrative Units.
+The Data Specification on Administrative Units – Technical Guidelines (version 3.2) and the associated GML application schemas (version 5.0) specifying requirements for the interoperability of spatial data sets of the data theme Administrative Units.
 
 The specification specifies the following conformance classes:
 
 | Conformance class | Standardization target |
 | ----------------- | ---------------------- |
-| [GML application schemas, Administrative Units](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-gml) | INSPIRE spatial data set encoded in GML, Administrative Units features |
-| [Data Consistency, Administrative Units](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-dc) | INSPIRE spatial data set |
-| [Application Schema, Administrative Units](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-as) | INSPIRE spatial data set |
-| [Application Schema, Maritime Units](http://inspire.ec.europa.eu/id/ats/data-au/3.1/mu-as) | INSPIRE spatial data set |
-| [Portrayal, Administrative Units](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-portrayal) | INSPIRE view service |
-| [Reference Systems, Administrative Units](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-rs) | INSPIRE spatial data set |
-| [Information Accessibility, Administrative Units](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-ia) | INSPIRE spatial data set |
+| [GML application schemas, Administrative Units](./au-gml) | INSPIRE spatial data set encoded in GML, Administrative Units features |
+| [Data Consistency, Administrative Units](./au-dc) | INSPIRE spatial data set |
+| [Application Schema, Administrative Units](./au-as) | INSPIRE spatial data set |
+| [Application Schema, Maritime Units](./mu-as) | INSPIRE spatial data set |
+| [Portrayal, Administrative Units](./au-portrayal) | INSPIRE view service |
+| [Reference Systems, Administrative Units](./au-rs) | INSPIRE spatial data set |
+| [Information Accessibility, Administrative Units](./au-ia) | INSPIRE spatial data set |
 
 ## Approach
 
