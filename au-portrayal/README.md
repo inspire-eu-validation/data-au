@@ -46,7 +46,7 @@ This Conformance Class contains the following tests.
 | ----------------------------------------------------------------------------------- | -------- |
 | [Layers](./layers.md) | Ready for review |
 | [Layer name](./layer-name.md) | Ready for review |
-| [Layer for Maritime Unit] (./layerforMaritimeUnit.md) | Ready for review |
+| [Layer for Maritime Unit](./layerforMaritimeUnit.md) | Ready for review |
 
 ## Open issues
 
