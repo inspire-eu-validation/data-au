@@ -1,4 +1,4 @@
-# Conformance class: Information accessibility, Administrative Units (DRAFT)
+# Conformance class: Information accessibility, Administrative Units
 
 Conformance class for the requirements related to the accessibility of referenced information, for example, information stored in registries (code lists, coordinate reference systems).
 
