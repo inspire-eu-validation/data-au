@@ -18,7 +18,7 @@ A direct dependency is another conformance class whose requirements must be met 
 
 | Specification | Conformance class | Parameters | 
 | ------------- | ----------------- | ---------- |
-| [TG DS Template](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-dc/README#ref_TG_DS_tmpl) | [Data consistency](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/data-consistency) | n/a |
+| [TG DS Template](#ref_TG_DS_tmpl) | [Data consistency](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/data-consistency) | n/a |
 
 ### Indirect dependencies
 
@@ -49,20 +49,20 @@ The following abbreviations are used in the test text for referring to external 
 
 Abbreviation                     | Document name
 -------------------------------- | --------------------------------------------------
-TG DS-AU <a name="ref_TG_DS_AU"></a>   | [INSPIRE Data Specification on Administrative Units – Technical Guidelines version 3.1](http://inspire.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_AU_v3.1.pdf)
-TG DS Template <a name="ref_TG_DS_tmpl"></a>   | [INSPIRE Data Specification Template version 3.0rc3](http://inspire.jrc.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_Template_v3.0rc3.pdf)
+TG DS-AU <a name="ref_TG_DS_AU"></a>   | [INSPIRE Data Specification on Administrative Units – Technical Guidelines](https://knowledge-base.inspire.ec.europa.eu/publications/inspire-data-specification-administrative-units-technical-guidelines_en)
+TG DS Template <a name="ref_TG_DS_tmpl"></a>   | [INSPIRE Data Specification Template](http://inspire.jrc.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_Template_v3.0rc3.pdf)
 
 ## Test Cases
 
 | Identifier                                                        | Status   | Test case in [TG DS-AU](#ref_TG_DS_AU)  |
 | ----------------------------------------------------------------- | -------- | ------------ |
-| [Area consistency](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-dc/area)  | ready for review  | A.3.8  |
-| [Boundary consistency](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-dc/boundary)  | ready for review  | A.3.9  |
-| [Co-administered consistency](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-dc/co-administered)  | ready for review  | A.3.7  |
-| [Condominium administration](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-dc/condominiumAdministration)  | ready for review  | A.3.11  |
-| [Condominium spatial extent](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-dc/condominiumSpatialExtent)  | ready for review  | A.3.10  |
-| [Higher hierarchy consistency](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-dc/higher-hierarchy)  | ready for review  | A.3.5  |
-| [Lower hierarchy consistency](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-dc/lower-hierarchy)  | ready for review  | A.3.6  |
+| [Area consistency](./area.md)  | ready for review  | A.3.8  |
+| [Boundary consistency](./boundary.md)  | ready for review  | A.3.9  |
+| [Co-administered consistency](./co-administered.md)  | ready for review  | A.3.7  |
+| [Condominium administration](./condominiumAdministration.md)  | ready for review  | A.3.11  |
+| [Condominium spatial extent](./condominiumSpatialExtent.md)  | ready for review  | A.3.10  |
+| [Higher hierarchy consistency](./higher-hierarchy.md)  | ready for review  | A.3.5  |
+| [Lower hierarchy consistency](./lower-hierarchy.md)  | ready for review  | A.3.6  |
 
 
 ## XML namespace prefixes <a name="namespaces"></a>
@@ -71,6 +71,5 @@ The following prefixes are used to refer to the corresponding XML namespaces in 
 
 Prefix         | Namespace
 -------------- | -------------------------------------------------
-au          | http://inspire.ec.europa.eu/schemas/au/4.0 or urn:x-inspire:specification:gmlas:AdministrativeUnits:3.0
-au3          | urn:x-inspire:specification:gmlas:AdministrativeUnits:3.0
+au          | http://inspire.ec.europa.eu/schemas/au/5.0 
 gml            | http://www.opengis.net/gml/3.2
