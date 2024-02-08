@@ -10,8 +10,8 @@
 
 * Validate each document against the latest INSPIRE official schema(s), using strict XML schema validation. 
   The official schemas for this data theme are:
-  *  Administrative Units: https://inspire.ec.europa.eu/schemas/au/4.0/AdministrativeUnits.xsd
-  *  Maritime Units: https://inspire.ec.europa.eu/schemas/mu/3.0/MaritimeUnits.xsd
+  *  Administrative Units: https://inspire.ec.europa.eu/schemas/au/5.0/AdministrativeUnits.xsd
+  *  Maritime Units: https://inspire.ec.europa.eu/schemas/mu/4.0/MaritimeUnits.xsd
 
 **Reference(s)**: 
 
