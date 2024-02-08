@@ -62,11 +62,9 @@ disallowedCodeListValue <a name="disallowedCodeListValue"/>  |  XML document '$f
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/data-au/3.1/au-as/README#namespaces).
+The namespace prefixes used as described in [README.md](../au-as/README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-BaselineSegmentType (v3) <a name="#segmentType3"></a>   | //schema-element(mu:BaselineProperty/mu:segmentType/text()
-BaselineSegmentType (v4) <a name="#segmentType4"></a>   | //schema-element(mu:BaselineProperty/mu:segmentType/@href:xlink
-MaritimeZoneType (v3) <a name="#zoneType3"></a>   | //schema-element(mu:MaritimeZone/mu:zoneType/text()
-MaritimeZoneType (v4) <a name="#zoneType4"></a>   | //schema-element(mu:MaritimeZone/mu:zoneType/@href:xlink
+BaselineSegmentType <a name="#segmentType4"></a>   | //schema-element(mu:BaselineProperty/mu:segmentType/@href:xlink
+MaritimeZoneType <a name="#zoneType4"></a>   | //schema-element(mu:MaritimeZone/mu:zoneType/@href:xlink
